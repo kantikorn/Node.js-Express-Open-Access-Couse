@@ -8,7 +8,7 @@ app.use(morgan('combined'));
 
 app.get("/" , (req , res) => {
 
-    res.send("Hello Kantikorn")
+    res.send("Hello Kantikorn" + "Sornsuriyawong")
 })
 
 app.listen(port , () => {
